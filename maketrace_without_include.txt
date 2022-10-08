@@ -1,0 +1,26 @@
+Reading makefiles...
+Updating goal targets....
+ File 'run.exe' does not exist.
+   File 'findme_1.o' does not exist.
+  Must remake target 'findme_1.o'.
+<builtin>: update target 'findme_1.o' due to: src/findme_1.c
+
+##>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+            $(CC) $(CPPFLAGS) $(CFLAGS) -c -o $@ $^
+##>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+gcc -I include -Wall   -c -o findme_1.o src/findme_1.c
+##<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+  Successfully remade target file 'findme_1.o'.
+   File 'main.o' does not exist.
+  Must remake target 'main.o'.
+Makefile:24: update target 'main.o' due to: main.c include/findme_1.h
+##>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+gcc -I include -Wall -DITACHI=7 main.c	 -c 
+##<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+  Successfully remade target file 'main.o'.
+Must remake target 'run.exe'.
+Makefile:21: update target 'run.exe' due to: findme_1.o main.o
+##>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+gcc -o run.exe findme_1.o main.o ./libs/*.so
+##<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Successfully remade target file 'run.exe'.

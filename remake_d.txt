@@ -1,0 +1,196 @@
+Updating goal targets....
+Considering target file 'run.exe'.
+/home/thuantm/Coding/Sample/Make/sample/Makefile:20 run.exe
+ File 'run.exe' does not exist.
+  Considering target file 'findme_1.o'.
+   File 'findme_1.o' does not exist.
+   Looking for an implicit rule for 'findme_1.o'.
+   Trying pattern rule with stem 'findme_1'.
+   Trying implicit prerequisite 'findme_1.c'.
+   Found prerequisite 'findme_1.c' as VPATH 'src/findme_1.c'
+   Found an implicit rule for 'findme_1.o'.
+    Considering target file 'src/findme_1.c'.
+     Looking for an implicit rule for 'src/findme_1.c'.
+     Trying pattern rule with stem 'findme_1'.
+     Trying implicit prerequisite 'src/findme_1.y'.
+     Trying pattern rule with stem 'findme_1'.
+     Trying implicit prerequisite 'src/findme_1.l'.
+     Trying pattern rule with stem 'findme_1'.
+     Trying implicit prerequisite 'src/findme_1.w'.
+     Trying pattern rule with stem 'findme_1'.
+     Trying implicit prerequisite 'src/findme_1.w'.
+     Trying pattern rule with stem 'findme_1.c'.
+     Trying implicit prerequisite 'src/findme_1.c,v'.
+     Trying pattern rule with stem 'findme_1.c'.
+     Trying implicit prerequisite 'src/RCS/findme_1.c,v'.
+     Trying pattern rule with stem 'findme_1.c'.
+     Trying implicit prerequisite 'src/RCS/findme_1.c'.
+     Trying pattern rule with stem 'findme_1.c'.
+     Trying implicit prerequisite 'src/s.findme_1.c'.
+     Trying pattern rule with stem 'findme_1.c'.
+     Trying implicit prerequisite 'src/SCCS/s.findme_1.c'.
+     Trying pattern rule with stem 'findme_1'.
+     Trying implicit prerequisite 'src/findme_1.y'.
+     Looking for a rule with intermediate file 'src/findme_1.y'.
+      Avoiding implicit rule recursion.
+      Trying pattern rule with stem 'findme_1.y'.
+      Trying implicit prerequisite 'src/findme_1.y,v'.
+      Trying pattern rule with stem 'findme_1.y'.
+      Trying implicit prerequisite 'src/RCS/findme_1.y,v'.
+      Trying pattern rule with stem 'findme_1.y'.
+      Trying implicit prerequisite 'src/RCS/findme_1.y'.
+      Trying pattern rule with stem 'findme_1.y'.
+      Trying implicit prerequisite 'src/s.findme_1.y'.
+      Trying pattern rule with stem 'findme_1.y'.
+      Trying implicit prerequisite 'src/SCCS/s.findme_1.y'.
+     Trying pattern rule with stem 'findme_1'.
+     Trying implicit prerequisite 'src/findme_1.l'.
+     Looking for a rule with intermediate file 'src/findme_1.l'.
+      Avoiding implicit rule recursion.
+      Trying pattern rule with stem 'findme_1.l'.
+      Trying implicit prerequisite 'src/findme_1.l,v'.
+      Trying pattern rule with stem 'findme_1.l'.
+      Trying implicit prerequisite 'src/RCS/findme_1.l,v'.
+      Trying pattern rule with stem 'findme_1.l'.
+      Trying implicit prerequisite 'src/RCS/findme_1.l'.
+      Trying pattern rule with stem 'findme_1.l'.
+      Trying implicit prerequisite 'src/s.findme_1.l'.
+      Trying pattern rule with stem 'findme_1.l'.
+      Trying implicit prerequisite 'src/SCCS/s.findme_1.l'.
+     Trying pattern rule with stem 'findme_1'.
+     Trying implicit prerequisite 'src/findme_1.w'.
+     Looking for a rule with intermediate file 'src/findme_1.w'.
+      Avoiding implicit rule recursion.
+      Trying pattern rule with stem 'findme_1.w'.
+      Trying implicit prerequisite 'src/findme_1.w,v'.
+      Trying pattern rule with stem 'findme_1.w'.
+      Trying implicit prerequisite 'src/RCS/findme_1.w,v'.
+      Trying pattern rule with stem 'findme_1.w'.
+      Trying implicit prerequisite 'src/RCS/findme_1.w'.
+      Trying pattern rule with stem 'findme_1.w'.
+      Trying implicit prerequisite 'src/s.findme_1.w'.
+      Trying pattern rule with stem 'findme_1.w'.
+      Trying implicit prerequisite 'src/SCCS/s.findme_1.w'.
+     Trying pattern rule with stem 'findme_1'.
+     Rejecting impossible implicit prerequisite 'src/findme_1.w'.
+     No implicit rule found for 'src/findme_1.c'.
+     Finished prerequisites of target file 'src/findme_1.c'.
+    No need to remake target 'src/findme_1.c'.
+   Finished prerequisites of target file 'findme_1.o'.
+  Must remake target 'findme_1.o'.
+<builtin>: update target 'findme_1.o' due to: src/findme_1.c
+##>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+gcc -I include -Wall   -c -o findme_1.o src/findme_1.c
+##<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Putting child 0x562630ba4b10 (findme_1.o) PID 23924 on the chain.
+Live child 0x562630ba4b10 (findme_1.o) PID 23924 
+Reaping winning child 0x562630ba4b10 PID 23924 
+Removing child 0x562630ba4b10 PID 23924 from chain.
+  Successfully remade target file 'findme_1.o'.
+  Considering target file 'main.o'.
+/home/thuantm/Coding/Sample/Make/sample/Makefile:23 main.o
+   File 'main.o' does not exist.
+    Considering target file 'main.c'.
+     Looking for an implicit rule for 'main.c'.
+     Trying pattern rule with stem 'main'.
+     Trying implicit prerequisite 'main.y'.
+     Trying pattern rule with stem 'main'.
+     Trying implicit prerequisite 'main.l'.
+     Trying pattern rule with stem 'main'.
+     Trying implicit prerequisite 'main.w'.
+     Trying pattern rule with stem 'main'.
+     Trying implicit prerequisite 'main.w'.
+     Trying pattern rule with stem 'main.c'.
+     Trying implicit prerequisite 'main.c,v'.
+     Trying pattern rule with stem 'main.c'.
+     Trying implicit prerequisite 'RCS/main.c,v'.
+     Trying pattern rule with stem 'main.c'.
+     Trying implicit prerequisite 'RCS/main.c'.
+     Trying pattern rule with stem 'main.c'.
+     Trying implicit prerequisite 's.main.c'.
+     Trying pattern rule with stem 'main.c'.
+     Trying implicit prerequisite 'SCCS/s.main.c'.
+     Trying pattern rule with stem 'main'.
+     Trying implicit prerequisite 'main.y'.
+     Looking for a rule with intermediate file 'main.y'.
+      Avoiding implicit rule recursion.
+      Trying pattern rule with stem 'main.y'.
+      Trying implicit prerequisite 'main.y,v'.
+      Trying pattern rule with stem 'main.y'.
+      Trying implicit prerequisite 'RCS/main.y,v'.
+      Trying pattern rule with stem 'main.y'.
+      Trying implicit prerequisite 'RCS/main.y'.
+      Trying pattern rule with stem 'main.y'.
+      Trying implicit prerequisite 's.main.y'.
+      Trying pattern rule with stem 'main.y'.
+      Trying implicit prerequisite 'SCCS/s.main.y'.
+     Trying pattern rule with stem 'main'.
+     Trying implicit prerequisite 'main.l'.
+     Looking for a rule with intermediate file 'main.l'.
+      Avoiding implicit rule recursion.
+      Trying pattern rule with stem 'main.l'.
+      Trying implicit prerequisite 'main.l,v'.
+      Trying pattern rule with stem 'main.l'.
+      Trying implicit prerequisite 'RCS/main.l,v'.
+      Trying pattern rule with stem 'main.l'.
+      Trying implicit prerequisite 'RCS/main.l'.
+      Trying pattern rule with stem 'main.l'.
+      Trying implicit prerequisite 's.main.l'.
+      Trying pattern rule with stem 'main.l'.
+      Trying implicit prerequisite 'SCCS/s.main.l'.
+     Trying pattern rule with stem 'main'.
+     Trying implicit prerequisite 'main.w'.
+     Looking for a rule with intermediate file 'main.w'.
+      Avoiding implicit rule recursion.
+      Trying pattern rule with stem 'main.w'.
+      Trying implicit prerequisite 'main.w,v'.
+      Trying pattern rule with stem 'main.w'.
+      Trying implicit prerequisite 'RCS/main.w,v'.
+      Trying pattern rule with stem 'main.w'.
+      Trying implicit prerequisite 'RCS/main.w'.
+      Trying pattern rule with stem 'main.w'.
+      Trying implicit prerequisite 's.main.w'.
+      Trying pattern rule with stem 'main.w'.
+      Trying implicit prerequisite 'SCCS/s.main.w'.
+     Trying pattern rule with stem 'main'.
+     Rejecting impossible implicit prerequisite 'main.w'.
+     No implicit rule found for 'main.c'.
+     Finished prerequisites of target file 'main.c'.
+    No need to remake target 'main.c'.
+    Considering target file 'findme_1.h'.
+     Looking for an implicit rule for 'findme_1.h'.
+     Trying pattern rule with stem 'findme_1.h'.
+     Trying implicit prerequisite 'findme_1.h,v'.
+     Trying pattern rule with stem 'findme_1.h'.
+     Trying implicit prerequisite 'RCS/findme_1.h,v'.
+     Trying pattern rule with stem 'findme_1.h'.
+     Trying implicit prerequisite 'RCS/findme_1.h'.
+     Trying pattern rule with stem 'findme_1.h'.
+     Trying implicit prerequisite 's.findme_1.h'.
+     Trying pattern rule with stem 'findme_1.h'.
+     Trying implicit prerequisite 'SCCS/s.findme_1.h'.
+     No implicit rule found for 'findme_1.h'.
+     Finished prerequisites of target file 'findme_1.h'.
+    No need to remake target 'findme_1.h'; using VPATH name 'include/findme_1.h'.
+   Finished prerequisites of target file 'main.o'.
+  Must remake target 'main.o'.
+Makefile:24: update target 'main.o' due to: main.c include/findme_1.h
+##>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+gcc -I include -Wall -DITACHI=7 main.c	 -c 
+##<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Putting child 0x562630ba9a30 (main.o) PID 23927 on the chain.
+Live child 0x562630ba9a30 (main.o) PID 23927 
+Reaping winning child 0x562630ba9a30 PID 23927 
+Removing child 0x562630ba9a30 PID 23927 from chain.
+  Successfully remade target file 'main.o'.
+ Finished prerequisites of target file 'run.exe'.
+Must remake target 'run.exe'.
+Makefile:21: update target 'run.exe' due to: findme_1.o main.o
+##>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+gcc -o run.exe findme_1.o main.o ./libs/*.so
+##<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Putting child 0x562630b9cc40 (run.exe) PID 23930 on the chain.
+Live child 0x562630b9cc40 (run.exe) PID 23930 
+Reaping winning child 0x562630b9cc40 PID 23930 
+Removing child 0x562630b9cc40 PID 23930 from chain.
+Successfully remade target file 'run.exe'.
